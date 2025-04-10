@@ -21,7 +21,7 @@ pipeline {
       agent{
         docker{image: 'mysql:latest'}
         steps{
-          sh 'SELECT * XYZ
+          sh 'SELECT * XYZ'
   }
 }
     }
